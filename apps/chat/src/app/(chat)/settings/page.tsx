@@ -138,9 +138,9 @@ export default function Settings() {
                   changeLang(e.target.value as any);
                 }}
               >
-                <option value="en" key="en">
+                {/* <option value="en" key="en">
                   {Locale.Settings.Lang.Options.en}
-                </option>
+                </option> */}
 
                 <option value="cn" key="cn">
                   {Locale.Settings.Lang.Options.cn}
@@ -163,7 +163,7 @@ export default function Settings() {
           </SettingItem>
         </List>
 
-        <List>
+        {/* <List>
           <SettingItem
             title={Locale.Settings.HistoryCount.Title}
             subTitle={Locale.Settings.HistoryCount.SubTitle}
@@ -202,10 +202,10 @@ export default function Settings() {
               }
             ></input>
           </SettingItem>
-        </List>
+        </List> */}
 
         <List>
-          <SettingItem title={Locale.Settings.Model}>
+          {/* <SettingItem title={Locale.Settings.Model}>
             <select
               value={config.modelConfig.model}
               onChange={(e) => {
@@ -221,7 +221,7 @@ export default function Settings() {
                 </option>
               ))}
             </select>
-          </SettingItem>
+          </SettingItem> */}
 
           <SettingItem
             title={Locale.Settings.Temperature.Title}
@@ -242,7 +242,7 @@ export default function Settings() {
               }}
             ></input>
           </SettingItem>
-          <SettingItem
+          {/* <SettingItem
             title={Locale.Settings.MaxTokens.Title}
             subTitle={Locale.Settings.MaxTokens.SubTitle}
           >
@@ -259,7 +259,7 @@ export default function Settings() {
                 )
               }
             ></input>
-          </SettingItem>
+          </SettingItem> */}
           <SettingItem
             title={Locale.Settings.PresencePenlty.Title}
             subTitle={Locale.Settings.PresencePenlty.SubTitle}
