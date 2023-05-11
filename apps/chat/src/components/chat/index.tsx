@@ -394,7 +394,7 @@ export function Chat() {
                     {message.model && (
                       <div className={styles["chat-message-action-date"]}>
 <!--                         {message.model.toUpperCase()} -->
-                        GPT-3.5-TURBO,GPT-4.0混合模式
+                        "GPT-3.5-TURBO,GPT-4.0混合模式"
                       </div>
                     )}
                   </div>
