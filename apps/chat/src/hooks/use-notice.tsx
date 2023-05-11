@@ -2,7 +2,9 @@ import { showModal } from "@/components/ui-lib";
 export function showAnnouncement() {
   showModal({
     title: "Announcement 公告",
-    children: <div></div>,
+    children: <div>
+    测试
+    </div>,
     // onClose: () => {}
   });
 }
