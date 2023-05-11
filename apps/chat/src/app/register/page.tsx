@@ -193,7 +193,7 @@ export default function Register() {
 
         <div className={styles["button-container"]}>
           <button className={styles["login-form-submit"]} type="submit">
-            Register
+            注册
           </button>
         </div>
       </form>
