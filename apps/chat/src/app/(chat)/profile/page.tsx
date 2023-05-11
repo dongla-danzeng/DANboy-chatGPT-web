@@ -152,8 +152,8 @@ export default function Profile() {
           </ProfileItem> */}
         </List>
 
-        {/* <List>
-          <ProfileItem
+        <List>
+          {/* <ProfileItem
             title={Locale.Profile.Invite.Title}
             subTitle={Locale.Profile.Invite.SubTitle}
           >
@@ -168,7 +168,7 @@ export default function Profile() {
             >
               {Locale.Profile.Invite.CopyInviteLink}
             </button>
-          </ProfileItem>
+          </ProfileItem> */}
 
           <ProfileItem
             title={Locale.Profile.Reset.Title}
@@ -182,7 +182,7 @@ export default function Profile() {
               {Locale.Profile.Reset.Click(resetChances ?? -1)}
             </button>
           </ProfileItem>
-        </List> */}
+        </List>
         {/*<List>*/}
         {/*  <ProfileItem*/}
         {/*    title={*/}
