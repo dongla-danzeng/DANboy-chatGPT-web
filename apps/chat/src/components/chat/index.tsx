@@ -391,11 +391,12 @@ export function Chat() {
                     <div className={styles["chat-message-action-date"]}>
                       {message.date.toLocaleString()}
                     </div>
-                    {/* {message.model && (
+                    {message.model && (
                       <div className={styles["chat-message-action-date"]}>
-                        {message.model.toUpperCase()}
+<!--                         {message.model.toUpperCase()} -->
+                        GPT-3.5-TURBO,GPT-4.0混合模式
                       </div>
-                    )} */}
+                    )}
                   </div>
                 )}
               </div>
