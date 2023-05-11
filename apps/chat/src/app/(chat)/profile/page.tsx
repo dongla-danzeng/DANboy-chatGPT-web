@@ -137,7 +137,7 @@ export default function Profile() {
             <div>{email}</div>
           </ProfileItem>
 
-          <ProfileItem
+          {/* <ProfileItem
             title={Locale.Profile.Plan.Title}
             subTitle="切换计划来升级"
           >
@@ -149,10 +149,10 @@ export default function Profile() {
                 {Locale.Profile.Upgrade}
               </button>
             </>
-          </ProfileItem>
+          </ProfileItem> */}
         </List>
 
-        <List>
+        {/* <List>
           <ProfileItem
             title={Locale.Profile.Invite.Title}
             subTitle={Locale.Profile.Invite.SubTitle}
@@ -182,8 +182,7 @@ export default function Profile() {
               {Locale.Profile.Reset.Click(resetChances ?? -1)}
             </button>
           </ProfileItem>
-        </List>
-
+        </List> */}
         {/*<List>*/}
         {/*  <ProfileItem*/}
         {/*    title={*/}
