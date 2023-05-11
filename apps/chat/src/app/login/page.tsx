@@ -75,9 +75,9 @@ export default function Login() {
         <form className={styles["login-form"]} onSubmit={handleLogin}>
           <ReturnButton onClick={() => router.push("/enter")} />
 
-          <h2 className={styles["login-form-title"]}>Login</h2>
+          <h2 className={styles["login-form-title"]}>登录</h2>
           <div className={styles["login-form-input-group"]}>
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">邮箱</label>
             <input
               type="email"
               id="email"
@@ -87,7 +87,7 @@ export default function Login() {
             />
           </div>
           <div className={styles["login-form-input-group"]}>
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">密码</label>
             <input
               type="password"
               id="password"
@@ -102,7 +102,7 @@ export default function Login() {
               type="submit"
               disabled={submitting}
             >
-              Login
+              登录
             </button>
           </div>
         </form>
