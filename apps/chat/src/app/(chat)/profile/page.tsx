@@ -153,7 +153,22 @@ export default function Profile() {
         </List>
 
         <List>
-
+          <ProfileItem
+            title={Locale.Profile.Invite.Title}
+            subTitle={Locale.Profile.Invite.SubTitle}
+          >
+            <button
+              className={styles["copy-button"]}
+              value={config.submitKey}
+              onClick={() =>
+                copyToClipboard(
+                  `${window.location.origin}/register?code=${inviteCode}`
+                )
+              }
+            >
+              {Locale.Profile.Invite.CopyInviteLink}
+            </button>
+          </ProfileItem>
 
           <ProfileItem
             title={Locale.Profile.Reset.Title}
