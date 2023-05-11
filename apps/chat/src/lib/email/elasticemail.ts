@@ -9,8 +9,8 @@ export default async function sendEmail(to: string, code: string | number) {
     apikey: apiKey,
     from: senderEmail,
     to: to,
-    subject: "【黄甲岩的ai助理】 激活码",
-    bodyHtml: `您的激活码是：${code}`,
+    subject: "【黄甲岩的ai助理】 邮箱验证码",
+    bodyHtml: `您的邮箱验证码是：${code}`,
   };
 
   const formData = new FormData();
