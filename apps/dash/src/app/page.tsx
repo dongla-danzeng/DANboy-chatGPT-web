@@ -22,8 +22,8 @@ export default function Page() {
       <Grid xs={12}>
         <Card shadow width="100%" height="100px">
           <Description
-            title="ChatGPT-Admin-Web"
-            content="带有用户管理的ChatGPT-WebUI"
+            title="黄甲岩的ai助理"
+            content="管理版本"
           />
           <Spacer />
           <span>当前用户总数: {data?.total_users}</span>
