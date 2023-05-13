@@ -393,7 +393,7 @@ export function Chat() {
                     </div>
                     {message.model && (
                       <div className={styles["chat-message-action-date"]}>
-                        GPT-3.5-TURBO,GPT-4.0混合模式
+                        GPT-3.5-TURBO
                       </div>
                     )}
                   </div>
