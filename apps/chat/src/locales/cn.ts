@@ -2,7 +2,7 @@ const title = process.env.NEXT_PUBLIC_TITLE;
 
 const cn = {
   Index: {
-    Title: title || "黄甲岩的ai助理",
+    Title: title || "DANboyのchatGPTWeb版",
     SubTitle: "欢迎关注微信公众号：",
     Submit: "提交",
     Login: "登录",
