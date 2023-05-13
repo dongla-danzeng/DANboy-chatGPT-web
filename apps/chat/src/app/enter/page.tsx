@@ -10,7 +10,7 @@ export default function Index() {
 
   return (
     <div className={styles["content"]}>
-      <h2 className={styles["text"]}>黄甲岩的AI机器人_3.0</h2>
+      <h2 className={styles["text"]}>DANboyのchatGPT</h2>
       <div className={styles["buttons"]}>
         <button
           className={styles["button"]}
