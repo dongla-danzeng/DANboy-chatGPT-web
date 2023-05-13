@@ -3,7 +3,7 @@ export function showAnnouncement() {
   showModal({
     title: "Announcement 公告",
     children: <div>
-    商用模块测试中，如果你受到了限制，可以联系我解除。
+    这里是DANboychatGPT网页版，目前免费提供给大家！
     </div>,
     // onClose: () => {}
   });
