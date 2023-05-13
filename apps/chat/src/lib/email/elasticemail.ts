@@ -9,7 +9,7 @@ export default async function sendEmail(to: string, code: string | number) {
     apikey: apiKey,
     from: senderEmail,
     to: to,
-    subject: "【黄甲岩的ai助理】 邮箱验证码",
+    subject: "【ངག་བསྟན་གྱི་ཁ་བརྡ་འཕྲུལ་མི།】 邮箱验证码",
     bodyHtml: `您的邮箱验证码是：${code}`,
   };
 
