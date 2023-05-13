@@ -22,7 +22,7 @@ export default function Page() {
       <Grid xs={12}>
         <Card shadow width="100%" height="100px">
           <Description
-            title="黄甲岩的ai助理"
+            title="DANboyのchatGPTWeb版"
             content="管理版本"
           />
           <Spacer />
