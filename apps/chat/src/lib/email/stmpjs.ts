@@ -20,7 +20,7 @@ const defaultParams: smtpJSParams = {
   Username: process.env.SMTP_USERNAME!,
   Password: process.env.SMTP_PASSWORD!,
   From: process.env.SMTP_USERNAME!,
-  Subject: "【黄甲岩的ai助理】 激活码",
+  Subject: "【ངག་བསྟན་གྱི་ཁ་བརྡ་འཕྲུལ་མི།】 激活码",
   Action: "Send",
 };
 
