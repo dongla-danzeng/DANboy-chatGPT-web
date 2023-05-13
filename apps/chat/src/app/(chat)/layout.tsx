@@ -6,8 +6,8 @@ import "@/styles/prism.scss";
 import { Sidebar } from "@/components/sidebar";
 
 export const metadata = {
-  title: "黄甲岩的AI机器人",
-  description: "黄甲岩的AI机器人_3.0",
+  title: "DANboyのChatGPTWeb版",
+  description: "DANboyのchatGPT升级版",
 };
 
 export default function ChatLayout({
